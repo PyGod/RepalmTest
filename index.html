@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head itemprop="itemscope" itemtype="http://schema.org/WebSite">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Repalm -" />
+    <link
+      rel="shortcut icon"
+      href="https://www.repalm.biz/wp-content/uploads/2023/07/favicon.svg"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="https://www.repalm.biz/wp-content/uploads/2023/07/favicon.svg"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="https://www.repalm.biz/wp-content/uploads/2023/07/favicon.svg"
+      type="image/x-icon"
+    />
+    <title>Repalm</title>
+    <meta
+      name="description"
+      content="Buy Wireless Headphones - High-quality sound, comfort, and a special discount. Perfect for music lovers and professionals."
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="nav" aria-label="Головне меню">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="/" class="nav__link" tabindex="0">Головна</a>
+        </li>
+        <li class="nav__item nav__item--has-submenu">
+          <a
+            href="/"
+            class="nav__link"
+            aria-haspopup="true"
+            aria-expanded="false"
+            tabindex="0"
+            >Продукти</a
+          >
+          <ul class="nav__submenu" aria-label="Підменю Продукти">
+            <li class="nav__submenu-item">
+              <a href="/" class="nav__submenu-link" tabindex="0">Ноутбуки</a>
+            </li>
+            <li class="nav__submenu-item">
+              <a href="/" class="nav__submenu-link" tabindex="0">Телефони</a>
+            </li>
+            <li class="nav__submenu-item">
+              <a href="/" class="nav__submenu-link" tabindex="0">Планшети</a>
+            </li>
+            <li class="nav__submenu-item">
+              <a href="/" class="nav__submenu-link" tabindex="0">Аксесуари</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav__item nav__item--has-submenu">
+          <a
+            href="/"
+            class="nav__link"
+            aria-haspopup="true"
+            aria-expanded="false"
+            tabindex="0"
+            >Послуги</a
+          >
+          <ul class="nav__submenu" aria-label="Підменю Послуги">
+            <li class="nav__submenu-item">
+              <a href="/" class="nav__submenu-link" tabindex="0">Доставка</a>
+            </li>
+            <li class="nav__submenu-item">
+              <a href="/" class="nav__submenu-link" tabindex="0">Гарантія</a>
+            </li>
+            <li class="nav__submenu-item">
+              <a href="/" class="nav__submenu-link" tabindex="0"
+                >Технічна підтримка</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="nav__item">
+          <a href="/" class="nav__link" tabindex="0">Про нас</a>
+        </li>
+        <li class="nav__item">
+          <a href="/" class="nav__link" tabindex="0">Контакти</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="product-wrapper">
+      <article
+        class="product-card"
+        itemscope
+        itemtype="https://schema.org/Product"
+        aria-label="Wireless Headphones product card"
+      >
+        <picture class="product-card__image">
+          <source type="image/jpg" srcset="img/headphones.jpg" />
+          <img
+            src="img/headphones.webp"
+            alt="Wireless Headphones"
+            itemprop="image"
+          />
+        </picture>
+
+        <section class="product-card__info">
+          <h1 class="product-card__title" itemprop="name">
+            Бездротові навушники
+          </h1>
+          <p
+            class="product-card__desc"
+            itemprop="description"
+            aria-label="Product description"
+          >
+            Високоякісний звук та комфорт. Ідеально підходить для меломанів.
+          </p>
+          <div class="product-card__footer">
+            <span
+              class="product-card__discount"
+              itemprop="price"
+              content="59.99"
+              aria-label="Discounted price"
+              >$59.99</span
+            >
+            <span class="product-card__price" aria-label="Original price"
+              >$79.99</span
+            >
+            <button
+              class="product-card__wishlist-btn"
+              aria-label="Add to wishlist"
+              type="button"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 21s-7-5.6-7-10.5A4.5 4.5 0 0 1 12 6.5a4.5 4.5 0 0 1 7 4.0C19 15.4 12 21 12 21z"
+                  stroke="#e63946"
+                  stroke-width="2"
+                  fill="#fff"
+                  class="product-card__heart"
+                />
+              </svg>
+            </button>
+          </div>
+          <button class="product-card__add-btn" type="button">
+            Додати в кошик
+          </button>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

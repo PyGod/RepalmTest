@@ -1,0 +1,23 @@
+{
+  "name": "repalm-test",
+  "version": "1.0.0",
+  "description": "Test project for Repalm including Product card and Menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PyGod"
+  },
+  "keywords": [
+    "Product",
+    "card",
+    "Menu",
+    "Test",
+    "html",
+    "css"
+  ],
+  "author": "Alexandr Romanenkov",
+  "license": "ISC"
+}
